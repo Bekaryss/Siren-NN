@@ -126,7 +126,7 @@ class MidiUtils:
                         notesDict[item.pitch.midi] += [[count, element.offset, element.duration.quarterLength]]
             count = count + 1
         print("Get notes Dictionary!")
-        print(notesDict)
+        # print(notesDict)
         return notesDict, totalCount
 
     def get_matrix(self, notes_dict, time_total):

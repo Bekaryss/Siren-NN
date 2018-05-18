@@ -4,7 +4,7 @@ from sys import stdin
 import glob
 import os
 
-midiUtil = MidiUtils('midi_songs/*.mid', 30, 100, 100, 0.25, 'output.mid', 14, 10)
+midiUtil = MidiUtils('midi_songs/*.mid', 30, 100, 100, 0.25, 'output.mid', 14, 12)
 newron = Neuron(128, 0.1, 128, 'sigmoid', 'binary_crossentropy', "rmsprop", 500, 64)
 
 
